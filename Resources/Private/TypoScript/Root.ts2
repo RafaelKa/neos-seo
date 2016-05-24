@@ -64,7 +64,7 @@ prototype(TYPO3.Neos:Page) {
 			}
 		}
 
-		alternateLanguageLinks = TYPO3.Neos:DimensionMenu {
+		alternateLanguageLinks = TYPO3.Neos:DimensionsMenu {
 			@if.languageDimensionExists = ${Configuration.setting('TYPO3.TYPO3CR.contentDimensions.language') != null}
 			@if.onlyRenderWhenInLiveWorkspace = ${node.context.workspace.name == 'live'}
 

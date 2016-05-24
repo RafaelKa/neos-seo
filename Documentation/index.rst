@@ -100,10 +100,10 @@ There is no need for creating a document node for the sitemap as this route will
 
 
 Alternate Language Tag
-------------------------
+----------------------
 
 The `Alternate Language Tag` provides information that the site is also available in other languages. By default the tags
-are rendered with the `TYPO3.Neos:DimensionMenu` and the `language` dimension. Given the Neos Demo Site Package as an
+are rendered with the `TYPO3.Neos:DimensionsMenu` and the `language` dimension. Given the Neos Demo Site Package as an
 example the rendered tags for the homepage would be.
 
 ::
