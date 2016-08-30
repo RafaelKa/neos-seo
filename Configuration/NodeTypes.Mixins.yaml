@@ -215,7 +215,7 @@
           group: 'openGraph'
           editor: 'TYPO3.Neos/Inspector/Editors/TextAreaEditor'
           editorOptions:
-            placeholder: i18n #'Used as og:title , max. 60 chars'
+            placeholder: i18n #'Used as og:title, max. 60 chars'
       validation:
         'TYPO3.Neos/Validation/StringLengthValidator':
           maximum: 60
