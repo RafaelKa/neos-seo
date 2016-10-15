@@ -14,7 +14,7 @@
           position: 10000
           editor: 'TYPO3.Neos/Inspector/Editors/TextAreaEditor'
           editorOptions:
-            placeholder: 'Used in <title> tag, max. 60 chars'
+            placeholder: i18n #'Used in <title> tag, max. 60 chars'
       validation:
         'TYPO3.Neos/Validation/StringLengthValidator':
           maximum: 60
@@ -42,7 +42,7 @@
           position: 10
           editor: 'TYPO3.Neos/Inspector/Editors/TextAreaEditor'
           editorOptions:
-            placeholder: 'max. 156 characters'
+            placeholder: i18n #'max. 156 characters'
       validation:
         'TYPO3.Neos/Validation/StringLengthValidator':
           maximum: 156
@@ -55,7 +55,7 @@
           position: 20
           editor: 'TYPO3.Neos/Inspector/Editors/TextAreaEditor'
           editorOptions:
-            placeholder: 'comma separated, max. 255 chars'
+            placeholder: i18n #'comma separated, max. 255 chars'
       validation:
         'TYPO3.Neos/Validation/StringLengthValidator':
           maximum: 255
@@ -113,7 +113,7 @@
         inspector:
           group: 'twittercard'
           editorOptions:
-            placeholder: '@johnexample'
+            placeholder: i18n #'@johnexample'
       validation:
         'TYPO3.Neos/Validation/RegularExpressionValidator':
           regularExpression: '/@[a-z0-9_]{1,15}/i'
@@ -125,7 +125,7 @@
           group: 'twittercard'
           editor: 'TYPO3.Neos/Inspector/Editors/TextAreaEditor'
           editorOptions:
-            placeholder: 'max. 70 characters'
+            placeholder: i18n #'max. 70 characters'
       validation:
         'TYPO3.Neos/Validation/StringLengthValidator':
           maximum: 70
@@ -137,7 +137,7 @@
           group: 'twittercard'
           editor: 'TYPO3.Neos/Inspector/Editors/TextAreaEditor'
           editorOptions:
-            placeholder: 'max. 200 characters'
+            placeholder: i18n #'max. 200 characters'
       validation:
         'TYPO3.Neos/Validation/StringLengthValidator':
           maximum: 200
@@ -174,7 +174,7 @@
           group: 'canonicallink'
           position: 30
           editorOptions:
-            placeholder: 'Paste a url, or use the default.'
+            placeholder: i18n #'Paste a url, or use the default.'
 
 #
 # OpenGraph mixin
@@ -215,7 +215,7 @@
           group: 'openGraph'
           editor: 'TYPO3.Neos/Inspector/Editors/TextAreaEditor'
           editorOptions:
-            placeholder: 'Used as og:title , max. 60 chars'
+            placeholder: i18n #'Used as og:title, max. 60 chars'
       validation:
         'TYPO3.Neos/Validation/StringLengthValidator':
           maximum: 60
@@ -227,7 +227,7 @@
           group: 'openGraph'
           editor: 'TYPO3.Neos/Inspector/Editors/TextAreaEditor'
           editorOptions:
-            placeholder: 'max. 200 characters'
+            placeholder: i18n #'max. 200 characters'
       validation:
         'TYPO3.Neos/Validation/StringLengthValidator':
           maximum: 200
@@ -289,7 +289,7 @@
           group: 'xmlsitemap'
           position: 20
           editorOptions:
-            placeholder: 'between 0 and 1'
+            placeholder: i18n #'between 0 and 1'
       validation:
         'TYPO3.Neos/Validation/NumberRangeValidator':
           minimum: 0
